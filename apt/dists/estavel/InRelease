@@ -1,0 +1,30 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Sun, 04 Oct 2026 11:07:25 +0000
+Valid-Until: Sun, 11 Oct 2026 11:07:25 +0000
+Architectures: amd64
+Codename: estavel
+Components: main
+Label: NewBond
+Origin: NewBond
+Suite: estavel
+MD5Sum:
+ a9cf0e3faec54769e058e03d8c8a7976             3183 main/binary-amd64/Packages
+ cd90b02f7cba2b5b445399f3f6c9c216             1726 main/binary-amd64/Packages.gz
+SHA1:
+ e3ed0da30a44bbfdf19ebe04dd702905fb3a9ad6             3183 main/binary-amd64/Packages
+ 1cd87be669eeeb545b52bc2dd51a4841abb548fe             1726 main/binary-amd64/Packages.gz
+SHA256:
+ c052bf8053eee5686a8f56f387f0bc32da5f48ca48dc7df6a4f0bed3ce8f2d5f             3183 main/binary-amd64/Packages
+ 10dbc7c7c5d9e1bf2c78922ebe65bf3d9c53d1574a79cd1aadfbd492864b2fad             1726 main/binary-amd64/Packages.gz
+SHA512:
+ 3b4ae42c6341729c807282bc9d36cd7989983a186d52ee90ec8e927b5d1df422384c27d7ca67b9f69c3fa968b4d320bf66a32cae79302c6899a640f5c0e8da10             3183 main/binary-amd64/Packages
+ 500d025d223e4172cf3f9495e418a7ed97ee1308289da25a2d697db6530ce5012569ab939aaadba5139de679d28955e819110425fe51bc96e73202ef33f2206a             1726 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQSUbTmcXROlPDtBg+fXmJ0i/plcsgUCasIzdwAKCRDXmJ0i/plc
+sizPAP9crxDXctpir4jaRP2lID9PDgIFNkNFk++SNwAnesLQtQEA0A8fO+5JLSeR
+PmxndEDYVSsDN4kUfI+Z4qz+jiEjeQE=
+=ywXw
+-----END PGP SIGNATURE-----

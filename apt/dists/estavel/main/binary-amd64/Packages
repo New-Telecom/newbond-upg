@@ -1,0 +1,59 @@
+Package: newbond-server
+Architecture: amd64
+Version: 0.9.1-campo4
+Priority: optional
+Section: net
+Maintainer: New Telecom <suporte@newtelecom.com.br>
+Installed-Size: 50404
+Depends: systemd, unbound, dns-root-data, wireguard-tools, iproute2, iputils-ping, nftables, default-dbus-system-bus | dbus-system-bus
+Suggests: postgresql-17, timescaledb-2-postgresql-17
+Filename: pool/main/newbond-server_0.9.1-campo4_amd64.deb
+Size: 22546692
+MD5sum: 211fedf2e665ea7f414ef9eea0d03d9f
+SHA1: aa362c0f7600dd7538f1012043a456a6051223a2
+SHA256: ce580b5a88c13ca5e3a62ed92883167d5011a15d54a6d3ab970bd9141e86763b
+SHA512: a6f45e100862b85e345a19659465c972c4d37116f0a0f842d358f19400626763a7e1c6677cf6d1719a4abbc272236e5f290bb9fe4771a3d2a372b66317053194
+Description: NewBond - concentrador
+ Ponta de datacenter da agregacao MPTCP do NewBond: recebe as sessoes dos CPE,
+ sobrevive a queda de um link sem reconectar, e serve o plano de controlo.
+ Inclui o newbond-gerencia (ADR 0126), o receptor da prova de eventos, e um
+ resolvedor DNS proprio via unbound (ADR 0128) que responde so ao proprio
+ concentrador, nunca para fora. Por omissao resolve a partir das raizes; os
+ encaminhadores sao escolha do operador.
+ .
+ O newbond-gerencia pode manter um tunel de gerencia WireGuard por CPE (ADR
+ 0130, flag -tunel, DESLIGADO por omissao) -- IP de gerencia estavel por CPE,
+ numa rede configuravel (nada preso a um numero fixo que o cliente nao possa
+ mudar).
+ .
+ Os dois servicos (newbond-server e newbond-gerencia) entram DESACTIVADOS e
+ sem configuracao: o -listen/-escuta e obrigatorio e o mTLS exige material
+ que so existe depois de alguem o gerar.
+ .
+ Corra 'newbond-server-setup' para configurar e activar tudo. O caminho
+ recomendado e o modo "Automatico" (ADR 0138): o proprio concentrador cria
+ a sua autoridade de certificados, e as CPEs novas ficam "aguardando
+ autorizacao" na tela da gerencia ate um administrador as aprovar -- sem
+ chave nenhuma para gerar ou copiar a mao. Os modos manuais continuam
+ disponiveis para quem preferir os seus proprios certificados; o guiao NAO
+ fabrica sozinho uma CA de producao fora do modo automatico: material que
+ assina os CPE do parque e de custodia.
+ .
+ Historico de uso (ADR 0140): OPCIONAL. Se os pacotes postgresql-17 e
+ timescaledb-2-postgresql-17 ja estiverem instalados quando correr o modo
+ "Automatico", o newbond-server-setup configura o banco sozinho (socket
+ local, sem senha nenhuma) e liga o historico por dispositivo, protocolo
+ e porta. Sem eles, o concentrador funciona da mesma forma, so sem
+ historico -- nao e uma dependencia deste pacote.
+ .
+ Inclui o newbond-interfaces: muda a rede desta maquina em modo seguro. Toda
+ mudanca feita pelo painel e desfeita sozinha se ninguem a confirmar a tempo,
+ inclusive depois de um reinicio.
+ .
+ Inclui o newbond-redir: redirecionamento de uma porta publica do
+ concentrador para um equipamento na rede da CPE (ex.: servidor LiveU),
+ com unidade e configuracao proprias. O pacote instala-o DESLIGADO; o
+ newbond-server-setup (modo "Automatico") liga-o. Cada porta aberta e
+ protegida no kernel (nftables): lista de origens permitidas, limite de
+ tentativas por origem e teto de banda de entrada.
+

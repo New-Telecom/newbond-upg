@@ -1,8 +1,8 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-Date: Tue, 06 Oct 2026 03:36:46 +0000
-Valid-Until: Tue, 13 Oct 2026 03:36:46 +0000
+Date: Wed, 07 Oct 2026 10:59:38 +0000
+Valid-Until: Wed, 14 Oct 2026 10:59:38 +0000
 Architectures: amd64
 Codename: estavel
 Components: main
@@ -10,21 +10,21 @@ Label: NewBond
 Origin: NewBond
 Suite: estavel
 MD5Sum:
- d6005a74130b245778967b06370ef98e             3183 main/binary-amd64/Packages
- 94415015e1599592bd774f275139dd27             1722 main/binary-amd64/Packages.gz
+ 763508ddf4b6dd8de4c83f8d72d5d633             3183 main/binary-amd64/Packages
+ 6df4e648c35bace835fc0a9cbbfe6bd9             1729 main/binary-amd64/Packages.gz
 SHA1:
- ec1f1e0ebeb308e6a6e74714abc5b846322a5846             3183 main/binary-amd64/Packages
- 6091e0ce224a91f916483417aa16be14b4818e09             1722 main/binary-amd64/Packages.gz
+ 03c018817d35c55aff72f28e3e8b2ea56c1e81da             3183 main/binary-amd64/Packages
+ dc1a7efe14523b91089bff1e4df1934f2f76d15e             1729 main/binary-amd64/Packages.gz
 SHA256:
- 8f890ffb3e07f56e8ed35837ee9f2c008e232eb07913781e778727c1e42efd0d             3183 main/binary-amd64/Packages
- 255ddcc6395d8940c55e385fd510644a914ad15565398ef720eafbe3c4ef74f0             1722 main/binary-amd64/Packages.gz
+ 37c5f223dba281d2958e278925641cb51daa59d6748e90c41c2e4522472b1a89             3183 main/binary-amd64/Packages
+ c319876f171eee457a1178e482852718f0e7452bead272859915891f8d1373cd             1729 main/binary-amd64/Packages.gz
 SHA512:
- f2de0457f0ddf8fb8563f79693b7962ee4979e041b393eb73febf749be6486f3b6efaa10eb0832a4dfe41b54b3bf0608c48f7120723bd0983cc26173f507b1f0             3183 main/binary-amd64/Packages
- a1dee37931bb461a8719d53237854e01e790445efc83280f590328cc20a5c315bddccc5d79ebc8f064c3524c3136e4915cecf377058df64050360a3663555298             1722 main/binary-amd64/Packages.gz
+ 3ac46477d8341bbc2ed8c7fecee2c476765c80d31a305c1630eb8919a8fbafecf20170078899194aac45012f1c5e0a0ed6124d9cccc4c6bfca0679bbb6f7024b             3183 main/binary-amd64/Packages
+ f2859587d95ee4fb77289cc3b02edde50306482d2a63563c32845e1d758ecb7bfdcdc7bcfd4c334c9390367362cfdf15f84150dcee28e402dee7d1b07bcb8ab1             1729 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQSUbTmcXROlPDtBg+fXmJ0i/plcsgUCasRs1QAKCRDXmJ0i/plc
-suOhAP0WLTyDV3N/WIFTymA35kGzxaSUG7yUqtgRdvvVJXJ6qwD/X6IL+K4Banae
-W1mi7YeRaoWz/eOaY8nuMgLwV0pK7QQ=
-=Z8QX
+iHUEARYKAB0WIQSUbTmcXROlPDtBg+fXmJ0i/plcsgUCasYmIgAKCRDXmJ0i/plc
+srKKAP0W6XtegXbbxLIveYE+K4++gQv5mOApZAr4mpp33S9akAEA/3X3FBencmFl
+8SsWYFjHY2q7FN//yyt2JBjODHwq4gM=
+=KeKt
 -----END PGP SIGNATURE-----

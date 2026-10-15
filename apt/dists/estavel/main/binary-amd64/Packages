@@ -1,18 +1,18 @@
 Package: newbond-server
 Architecture: amd64
-Version: 0.9.1-campo17
+Version: 0.9.1-campo18
 Priority: optional
 Section: net
 Maintainer: New Telecom <suporte@newtelecom.com.br>
-Installed-Size: 51956
+Installed-Size: 51968
 Depends: systemd, unbound, dns-root-data, wireguard-tools, iproute2, iputils-ping, nftables, default-dbus-system-bus | dbus-system-bus
 Suggests: postgresql-17, timescaledb-2-postgresql-17
-Filename: pool/main/newbond-server_0.9.1-campo17_amd64.deb
-Size: 23042376
-MD5sum: f3c0f19012caae41f52fa40b04289308
-SHA1: 6d3a12a173edf3398af68766100865dd163bdd58
-SHA256: d827c526c20d0481b5ad3651fc78b363f2803e0bd64a4a36aae33fd36867478f
-SHA512: 49cf225e06ece3b26a3b3c4467e3f60d2a34944c939c87a73439eb8e6c23c53248fcbcfbd0d9b18021697cafda6b074988f20eb34072e183174b17715fbea530
+Filename: pool/main/newbond-server_0.9.1-campo18_amd64.deb
+Size: 23047460
+MD5sum: b92a08ad0851aea294bab7f3cdd22c37
+SHA1: 608b2b8f5879e81d2e6a240edfb0f911ef9ef51c
+SHA256: 3e75e0257453b271b1c6c188f71022658b32d1ae46d8ee0e958997b24f17bd67
+SHA512: ae682f9343c6cbbb147973378853729f252bc7e031a197e796143bc246070afd8f70b55058869fd5c6b05b10ff49570d642da487cf7d769e28db1ad26e796721
 Description: NewBond - concentrador
  Ponta de datacenter da agregacao MPTCP do NewBond: recebe as sessoes dos CPE,
  sobrevive a queda de um link sem reconectar, e serve o plano de controlo.

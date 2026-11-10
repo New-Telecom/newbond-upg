@@ -1,5 +1,5 @@
-Date: Tue, 10 Nov 2026 12:00:20 +0000
-Valid-Until: Tue, 17 Nov 2026 12:00:20 +0000
+Date: Tue, 10 Nov 2026 19:31:38 +0000
+Valid-Until: Tue, 17 Nov 2026 19:31:38 +0000
 Architectures: amd64
 Codename: estavel
 Components: main
@@ -7,14 +7,14 @@ Label: NewBond
 Origin: NewBond
 Suite: estavel
 MD5Sum:
- a7d447b7e44e7803d83a7174ad0ac2d8             3196 main/binary-amd64/Packages
- cad4db3b983099db49ac9cc115eeb57e             1729 main/binary-amd64/Packages.gz
+ e4d603576c82a2f7ca7e8d29d6a226e7             3196 main/binary-amd64/Packages
+ 84844a30f03ea4816e73387fa80c7c99             1733 main/binary-amd64/Packages.gz
 SHA1:
- 0d80becc3798ec0400e249a0f90c1bbac1357393             3196 main/binary-amd64/Packages
- b0b73463196ba083fb7c1e8d02a7ade7ec3c723c             1729 main/binary-amd64/Packages.gz
+ 9a566a55def13132704f52a27a88dd80acd4b276             3196 main/binary-amd64/Packages
+ 7f760dfdb90b493261fdaeac0a53c313d620676f             1733 main/binary-amd64/Packages.gz
 SHA256:
- 2f5ca467417533889845e6ad9f02011ca706d9d6936e1435a891d1dde1ececcf             3196 main/binary-amd64/Packages
- d2f7c25287a068b9dd5b4c3f9daa1f46a5817896e09ada504cb3e0a5e02bf487             1729 main/binary-amd64/Packages.gz
+ 6491d45a28e9c9b928217dfe562286ac4774bc936a6153eb4a3c9a7a45ae903b             3196 main/binary-amd64/Packages
+ e0ec79b7e2806123e21a6f522c6e1f1cc615dc4640cbc9dd20f4e7257c591195             1733 main/binary-amd64/Packages.gz
 SHA512:
- 08df605574df10a294bd5d7a9ec64217460fa6bb16a49adca487e58011ca1b92cfe586c1760c9f2e22580e2a4edad74b22630e984a7bd1e2cb145ca90962d026             3196 main/binary-amd64/Packages
- 8ca553f374c341685ec56eed31c60d72352066fb61c15b143367c3f50919e7931e4b2e2f7dd6934756dc1b0024de673d52719777164b70261b45957cb72d770a             1729 main/binary-amd64/Packages.gz
+ 1a4fb4ed97b40e421c49fe5b357437ec4cb886ae5f519001cff2d7d4f7859fd38d8a175e3747bf401db6c31910042a7b1e5467b2c00f3b37afb7fd73a29b5a6f             3196 main/binary-amd64/Packages
+ 7f180bbef7804c11ee15c50010d9f4a49b43ff9390f2a72909d216ae4a1625accbe46e1f86f8dbd1eea14bfd685f108c152c1c84d3bca48407ce26f541f07fe0             1733 main/binary-amd64/Packages.gz

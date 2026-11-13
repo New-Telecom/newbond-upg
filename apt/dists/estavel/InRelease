@@ -1,8 +1,8 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-Date: Thu, 12 Nov 2026 12:00:16 +0000
-Valid-Until: Thu, 19 Nov 2026 12:00:16 +0000
+Date: Fri, 13 Nov 2026 12:00:16 +0000
+Valid-Until: Fri, 20 Nov 2026 12:00:16 +0000
 Architectures: amd64
 Codename: estavel
 Components: main
@@ -23,8 +23,8 @@ SHA512:
  457ebdbd0077b830d10b1d32d982b3ccc204882d1d87e6bd2f3804294fd988628c3cf5e6e5d5634e910bfdc4e3552bf0feecc7ac6609c956db124babc6d60c06             1731 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQSUbTmcXROlPDtBg+fXmJ0i/plcsgUCavWqYgAKCRDXmJ0i/plc
-spocAQDcS22VWoNyRGn6rHolKRl5uel9tTuGoKHCWsOPtdi5aQD+Lf7Yk/J0EJSN
-8SDL4ZvWiNzCdXkU4XmwhpEezHmeiQ8=
-=dtW9
+iHUEARYKAB0WIQSUbTmcXROlPDtBg+fXmJ0i/plcsgUCavb73wAKCRDXmJ0i/plc
+ssVhAQC0c3qJJdvc7bSGmfzkQt21H8CJ1CsvE3NkT2B6usUFRwD/ePYVp3XAM6Xl
+l23igjTEMoDjamCn9KjVJ+HF8Z0BowI=
+=XBoz
 -----END PGP SIGNATURE-----
